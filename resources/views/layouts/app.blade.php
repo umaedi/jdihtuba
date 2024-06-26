@@ -118,6 +118,9 @@
             <li class="nav-item">
               <a href="/ikm" class="nav-link mx-2">IKM</a>
             </li>
+            <li class="nav-item">
+              <a href="https://api-jdih.tulangbawangkab.go.id/" class="nav-link mx-2">API</a>
+            </li>
           </ul>
 
           <div class="d-none d-lg-flex align-items-center">
@@ -128,7 +131,7 @@
               </div>
               @else
               <li>
-                <a href="/auth/google/redirect" class="btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="17px" viewBox="0 0 488 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"/></svg> Login</a>
+                <a href="/auth/google/redirect" class="btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="17px" fill="#fff"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464H398.7c-8.9-63.3-63.3-112-129-112H178.3c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3z"/></svg> Login</a>
               </li>
               @endauth
             </ul>

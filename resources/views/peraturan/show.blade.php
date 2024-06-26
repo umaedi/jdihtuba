@@ -10,15 +10,11 @@
         </div>
     </div>
 </div>
-    <div class="container mt-4">
+    <div class="container my-4">
         <div class="row gy-4 gx-4 gx-xl-5">
           <div class="col-12 col-lg-8 col-xl-8 border rounded gap-2 p-2 bg-white">
             <div class="mb-4 mb-xl-5">
-              <div class="text-135 fs-4 fw-bold  text-uppercase oswald m-0 p-0 lh-1 mb-3 mb-lg-4">Detail Peraturan</div>
-              <div class="row py-2 gx-3 gy-1 hover-bgeee lh-1 transisi align-items-center">
-                <div class="col-12 col-sm-4 text-sm-end">Tipe Dokumen</div>
-                <div class="col-12 col-sm-8 fs-5 fw-500">Peraturan Perundang-undangan</div>
-              </div>
+              <div class="text-135 fs-4 fw-bold  text-uppercase oswald m-0 p-0 lh-1 mb-3 mb-lg-4 ms-3">Detail Peraturan</div>
               <div class="row py-2 gx-3 gy-1 hover-bgeee lh-1 transisi align-items-center">
                 <div class="col-12 col-sm-4 text-sm-end">Judul</div>
                 <div class="col-12 col-sm-8 fs-5 fw-500 lh-sm">{{ $peraturan->judul }}</div>
@@ -34,6 +30,14 @@
               <div class="row py-2 gx-3 gy-1 hover-bgeee lh-1 transisi align-items-center">
                 <div class="col-12 col-sm-4 text-sm-end">Jenis / Bentuk Peraturan</div>
                 <div class="col-12 col-sm-8 fs-5 fw-500">{{ $peraturan->jenis_peraturan }}</div>
+              </div>
+              <div class="row py-2 gx-3 gy-1 hover-bgeee lh-1 transisi align-items-center">
+                <div class="col-12 col-sm-4 text-sm-end">Urusan Pemerintahan</div>
+                <div class="col-12 col-sm-8 fs-5 fw-500">{{ $peraturan->urusan_pemerintahan }}</div>
+              </div>
+              <div class="row py-2 gx-3 gy-1 hover-bgeee lh-1 transisi align-items-center">
+                <div class="col-12 col-sm-4 text-sm-end">Penandatanganan</div>
+                <div class="col-12 col-sm-8 fs-5 fw-500">{{ $peraturan->penandatanganan }}</div>
               </div>
               <div class="row py-2 gx-3 gy-1 hover-bgeee lh-1 transisi align-items-center">
                 <div class="col-12 col-sm-4 text-sm-end">Singkatan Jenis / Bentuk Peraturan</div>
@@ -72,12 +76,12 @@
                 <div class="col-12 col-sm-8 fs-5 fw-500">{{ $peraturan->bahasa }}</div>
               </div>
               <div class="row py-2 gx-3 gy-1 hover-bgeee lh-1 transisi align-items-center">
-                <div class="col-12 col-sm-4 text-sm-end">Lokasi</div>
-                <div class="col-12 col-sm-8 fs-5 fw-500">Pemerintah Kota Bandung</div>
-              </div>
-              <div class="row py-2 gx-3 gy-1 hover-bgeee lh-1 transisi align-items-center">
                 <div class="col-12 col-sm-4 text-sm-end">Bidang Hukum</div>
                 <div class="col-12 col-sm-8 fs-5 fw-500">{{ $peraturan->bidang_hukum }}</div>
+              </div>
+              <div class="row py-2 gx-3 gy-1 hover-bgeee lh-1 transisi align-items-center">
+                <div class="col-12 col-sm-4 text-sm-end">Pemerkasa</div>
+                <div class="col-12 col-sm-8 fs-5 fw-500">{{ $peraturan->pemrakarsa }}</div>
               </div>
               <div class="row py-2 gx-3 gy-1 hover-bgeee lh-1 transisi align-items-center">
                 <div class="col-12 col-sm-4 text-sm-end">Lampiran</div>
@@ -108,7 +112,6 @@
           </div>
         </div>
     </div>
-    <hr>
 </section>
 <!-- Modal -->
 <div class="modal fade" id="previewleModal" tabindex="-1" aria-labelledby="previewleModalLabel" aria-hidden="true">

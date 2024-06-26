@@ -32,6 +32,7 @@ class PeraturanController extends Controller
         ->select('document.*', 'data_lampiran.*', 'data_subyek.*')
         ->first();
     
+        // dd($data['peraturan']);
         $data['doktahun'] = DB::table('document')->selectRaw('tahun_terbit, COUNT(*) as document_count')
         ->groupBy('tahun_terbit')
         ->orderBy('tahun_terbit')
