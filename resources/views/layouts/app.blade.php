@@ -47,6 +47,9 @@
     .lead p {
       font-size: 20px !important;
     }
+    .main-menu {
+      border-bottom: #0a2647 3px solid;
+    }
 </style>
 
 </head>
@@ -119,7 +122,7 @@
               <a href="/ikm" class="nav-link mx-2">IKM</a>
             </li>
             <li class="nav-item">
-              <a href="https://api-jdih.tulangbawangkab.go.id/" class="nav-link mx-2">API</a>
+              <a href="https://api-jdih.tulangbawangkab.go.id/" target="_blank" class="nav-link mx-2">API</a>
             </li>
           </ul>
 
