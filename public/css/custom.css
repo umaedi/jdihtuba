@@ -1,0 +1,125 @@
+#search {
+    position: relative;
+    top: -230px;
+    z-index: 20;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#features {
+    position: relative;
+    top: -230px;
+    z-index: 10;
+}
+
+#backlink {
+    position: relative;
+    top: -150px;
+}
+.app-container {
+    background-color: #ffffff;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.search-input {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 10px;
+}
+.bg-gd-bpk-2 {
+    background-image: url(https://peraturan.bpk.go.id/30/assets/media/backgrounds/bg-gedung-bpk-2.jpg);
+}
+
+.sesction1 {
+    background-color: #ffffff;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 30px;
+    padding: 20px;
+}
+.section2 {
+    background-color: #ffffff;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 30px;
+    padding: 20px;
+    top: -180px;
+}
+.section3 {
+    background-color: #ffffff;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 30px;
+    padding: 20px;
+    top: -180px;
+}
+.section4 {
+    background-color: #ffffff;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 30px;
+    padding: 20px;
+    top: -180px;
+}
+.section5 {
+    top: -180px;
+}
+.section6 {
+    background-color: #ffffff;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 30px;
+    padding: 20px;
+    top: -180px;
+}
+
+.footer {
+    background-color: #0a2647;
+    /* border-top-left-radius: 30px;
+    border-top-right-radius: 30px; */
+    padding: 20px;
+    top: -180px;
+}
+
+.icon {
+    transition: fill 0.3s ease;
+}
+.informasi:hover .icon {
+    fill: #ffffff;
+}
+
+@media (max-width: 991.98px) {
+    .carousel {
+        padding-bottom: 200px;
+    }
+    #search {
+        max-width: none;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .app-container {
+        max-width: none;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .app-container-fit-mobile {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .search-input {
+        background-color: #ffffff;
+        max-width: none;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-radius: 20px;
+        padding: 10px;
+    }
+
+    .bg-primary {
+        background: #0a2647 !important;
+    }
+}
