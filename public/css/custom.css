@@ -129,6 +129,17 @@
 }
 
 @media (min-width: 1400px) {
+    #search {
+        top: -450px;
+        z-index: 20;
+    }
+
+    #features {
+        margin-top: 2rem;
+        position: relative;
+        top: -450px;
+        z-index: 10;
+    }
     .app-container {
         max-width: 1320px;
     }
