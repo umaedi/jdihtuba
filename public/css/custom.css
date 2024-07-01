@@ -144,6 +144,12 @@
     #courses {
         top: -320px;
     }
+    #grafik {
+        top: -320px;
+    }
+    #backlink {
+        top: -320px;
+    }
     .app-container {
         max-width: 1320px;
     }
