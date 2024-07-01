@@ -1,4 +1,9 @@
 @extends('layouts.app')
+<style>
+    .lead span {
+        font-size: 18px !important;
+    }
+</style>
 @section('content')
     <section id="posts">
         <div class="app-container my-4">

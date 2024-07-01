@@ -15,7 +15,7 @@
       <span class="visually-hidden">Next</span>
     </button> --}}
   </div>
-  <section id="search" class="position-relative">
+  <section id="search" class="app-container position-relative">
     <div class="mb-3">
         <div class="col-md-12">
           <form id="form" action="/cari" method="GET" class="d-flex align-items-center position-relative search-input">
@@ -166,9 +166,9 @@
         @foreach ($news as $b)
         <div class="col-sm-6 col-lg-4 col-xl-3 mb-5">
           <div class="card rounded-4 border-1 p-3 position-relative">
-            <a href="courses-details.html"><img src="{{ asset('images/thumb_post.png') }}" class="img-fluid rounded-3" alt="image"></a>
+            <a href="/berita/detail/{{ $b->id }}"><img src="{{ asset('images/thumb_post.png') }}" class="img-fluid rounded-3" alt="image"></a>
             <div class="card-body p-3">
-              <a href="courses-details.html">
+              <a href="/berita/detail/{{ $b->id }}">
                 <h6 class="course-title mt-2 m-0 fs-6 fs-md-5">{{ $b->judul }}</h6>
               </a>
             </div>

@@ -1,12 +1,10 @@
 #search {
-    position: relative;
     top: -230px;
     z-index: 20;
-    margin-left: 50px;
-    margin-right: 50px;
 }
 
 #features {
+    margin-top: 2rem;
     position: relative;
     top: -230px;
     z-index: 10;
@@ -15,13 +13,6 @@
 #backlink {
     position: relative;
     top: -150px;
-}
-.app-container {
-    background-color: #ffffff;
-    margin-left: 50px;
-    margin-right: 50px;
-    border-radius: 30px;
-    padding: 20px;
 }
 
 .search-input {
@@ -38,7 +29,6 @@
     margin-left: 50px;
     margin-right: 50px;
     border-radius: 30px;
-    padding: 20px;
 }
 .section2 {
     background-color: #ffffff;
@@ -100,16 +90,6 @@
         margin-left: 0px;
         margin-right: 0px;
     }
-    .app-container {
-        max-width: none;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    .app-container-fit-mobile {
-        padding-left: 0 !important;
-        padding-right: 0 !important;
-    }
-
     .search-input {
         background-color: #ffffff;
         max-width: none;
@@ -121,5 +101,43 @@
 
     .bg-primary {
         background: #0a2647 !important;
+    }
+}
+
+.app-container {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .app-container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .app-container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .app-container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .app-container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .app-container {
+        max-width: 1320px;
     }
 }
