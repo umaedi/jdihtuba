@@ -87,7 +87,7 @@
                 <div class="col-12 col-sm-4 text-sm-end">Lampiran</div>
                 <div class="col-12 col-sm-8 fs-5 fw-500">
                   <button data-bs-toggle="modal" data-bs-target="#previewleModal" class="btn btn-primary">Preview</button>
-                  <a href="https://jdih.tulangbawangkab.go.id/common/dokumen/{{ $peraturan->dokumen_lampiran }}" class="btn btn-primary">Download</a>
+                  <a href="https://admin-jdih.tulangbawangkab.go.id/common/dokumen/{{ $peraturan->dokumen_lampiran }}" class="btn btn-primary">Download</a>
                 </div>
               </div>
             </div>
@@ -122,7 +122,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <embed type="application/pdf" src="https://jdih.tulangbawangkab.go.id/common/dokumen/{{ $peraturan->dokumen_lampiran }}" width="100%" height="400"></embed>
+        <embed type="application/pdf" src="https://admin-jdih.tulangbawangkab.go.id/common/dokumen/{{ $peraturan->dokumen_lampiran }}" width="100%" height="400"></embed>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
