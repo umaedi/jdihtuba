@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 <section id="courses" class="my-4">
-  <div class="app-container mb-3">
+  <div class="app-container search-adv mb-3">
     <form action="/cari" method="GET">
     <div class="row">
       <h5 class="fw-semibold">Pencarian Lanjutan</h5>
@@ -57,7 +57,7 @@
     <button type="submit" class="btn btn-primary">Cari</button>
     </form>
   </div>
-    <div class="app-container">
+    <div class="app-container search-adv">
       <div class="mb-5">
         <h5 class="fw-semibold">Produk Hukum</h5>
       </div>
@@ -83,7 +83,6 @@
         @endforeach
       </div>
       {{ $peraturan_terbaru->links() }}
-      <hr>
     </div>
   </section>
 @endsection
