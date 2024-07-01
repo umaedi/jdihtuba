@@ -140,6 +140,10 @@
         top: -450px;
         z-index: 10;
     }
+
+    #courses {
+        top: -320px;
+    }
     .app-container {
         max-width: 1320px;
     }
