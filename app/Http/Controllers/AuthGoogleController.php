@@ -36,7 +36,7 @@ class AuthGoogleController extends Controller
                 ]);
             }
             Auth::login($user);
-            if(Auth::user()->email == "hukumtuba@gmail.com") {
+            if(Auth::user()->email == "umaedi.kh.99@gmail.com") {
                 return redirect('https://jdih.tulangbawangkab.go.id/backend/site/login');
             }
             return redirect('/');

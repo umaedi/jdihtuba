@@ -17,19 +17,19 @@
   </div>
   <section id="search" class="app-container position-relative">
     <div class="mb-3">
-        <div class="col-md-12">
+        {{-- <div class="col-md-12"> --}}
           <form id="form" action="/cari" method="GET" class="d-flex align-items-center position-relative search-input">
             <input type="text" name="judul" placeholder="Cari produk hukum..." autofocus class="form-control bg-white border-0 rounded-4 shadow-none px-4  w-100">
             <button type="submit" class="btn btn-primary rounded-4 px-3 py-2 position-absolute align-items-center m-1 end-0">
               <svg fill="#fff" xmlns="http://www.w3.org/2000/svg" width="20px" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
           </button>
           </form>
-        </div>
+        {{-- </div> --}}
     </div>
   </section>
 
   <section id="features" class="app-container sesction1 position-relative">
-    <div class="container ">
+    <div class="container">
       <div class="row g-md-3">
         <div class="col-md-4">
           <a href="/peraturan">
