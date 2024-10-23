@@ -65,8 +65,8 @@
     <div class="container-fluid">
       <div class="main-logo d-lg-none">
         <a href="/">
-          <h4>JDIH TUBA</h4>
-          {{-- <img src="images/logo.png" alt="logo" class="img-fluid"> --}}
+          {{-- <h4>JDIH TUBA</h4> --}}
+          <img src="{{ asset('images/logo-jdih-tuba.png') }}" lazy="loading" alt="logo" class="img-fluid">
         </a>
       </div>
 
@@ -84,8 +84,8 @@
         <div class="offcanvas-body justify-content-between">
           <div class="main-logo">
             <a href="/">
-              <h4>JDIH TUBA</h4>
-              {{-- <img src="images/logo.png" alt="logo" class="img-fluid"> --}}
+              {{-- <h4>JDIH TUBA</h4> --}}
+              <img src="{{ asset('images/logo-jdih-tuba.png') }}" lazy="loading" alt="logo" class="img-fluid" width="50%">
             </a>
           </div>
 
