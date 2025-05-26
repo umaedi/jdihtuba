@@ -23,3 +23,5 @@ Route::get('/cari', SearchController::class);
 
 Route::get('/auth/google/redirect', [AuthGoogleController::class, 'redirect']);
 Route::get('/auth/google/callback', [AuthGoogleController::class, 'callback']);
+
+Route::get('/kebijakan-privasi', [PagesController::class, 'kebijakanPrivasi']);

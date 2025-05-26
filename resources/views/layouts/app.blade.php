@@ -124,6 +124,9 @@
             <li class="nav-item">
               <a href="https://api-jdih.tulangbawangkab.go.id/" target="_blank" class="nav-link mx-2">API</a>
             </li>
+            <li class="nav-item">
+              <a href="/kebijakan-privasi" class="nav-link mx-2">KEBIJAKAN PRIVASI</a>
+            </li>
           </ul>
 
           <div class="d-none d-lg-flex align-items-center">

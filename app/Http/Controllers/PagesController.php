@@ -29,4 +29,10 @@ class PagesController extends Controller
         $data['title'] = 'Indek Kepuasan Masyarakat';
         return view('pages.ikm', $data);
     }
+
+    public function kebijakanPrivasi()
+    {
+        $data['title'] = 'Kebijakan Privasi';
+        return view('pages.kebijakan_privasi', $data);
+    }
 }
