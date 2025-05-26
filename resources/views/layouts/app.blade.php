@@ -55,18 +55,11 @@
 </head>
 
 <body>
-  {{-- <section id="top-nav" class="bg-success">
-    <div class="text-center px-md-3 py-md-2">
-      <p class="text-white py-1 m-0">Jaringan Dokumentasi dan Informasi Hukum Kabupaten Tulang Bawang
-      </p>
-    </div>
-  </section> --}}
   <nav class="main-menu d-flex navbar navbar-expand-lg p-2 py-3 p-lg-4 py-lg-4">
-    <div class="container-fluid">
+    <div class="container-fluid justify-content-center">
       <div class="main-logo d-lg-none">
         <a href="/">
-          <h4>JDIH TUBA</h4>
-          {{-- <img src="images/logo.png" alt="logo" class="img-fluid"> --}}
+          <img src="{{ asset('images/logo-jdih-tuba.png') }}" lazy="loading" alt="logo" class="img-fluid" width="100%">
         </a>
       </div>
 
@@ -84,8 +77,8 @@
         <div class="offcanvas-body justify-content-between">
           <div class="main-logo">
             <a href="/">
-              <h4>JDIH TUBA</h4>
-              {{-- <img src="images/logo.png" alt="logo" class="img-fluid"> --}}
+              {{-- <h4>JDIH TUBA</h4> --}}
+              <img src="{{ asset('images/logo-jdih-tuba.png') }}" lazy="loading" alt="logo" class="img-fluid" width="50%">
             </a>
           </div>
 
